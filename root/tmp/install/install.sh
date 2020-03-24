@@ -3,8 +3,8 @@
 #MakeMKV-RDP
 
 #####################################
-#	Install dependencies			#
-#									#
+#	Install dependencies			        #
+#									                  #
 #####################################
 
 apt-get update -qq
@@ -27,8 +27,8 @@ tar xvjf /tmp/sources/ffmpeg-4.0.tar.bz2
 popd
 
 #####################################
-#	Compile and install				#
-#									#
+#	Compile and install				        #
+#									                  #
 #####################################
 
 #FFmpeg
@@ -51,8 +51,8 @@ popd
 
 
 #####################################
-#	Remove unneeded packages		#
-#									#
+#	Remove unneeded packages		      #
+#									                  #
 #####################################
 
 apt-get remove -qy build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev qt5-default
