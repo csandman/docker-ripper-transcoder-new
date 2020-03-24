@@ -79,7 +79,7 @@ while true; do
       else
          # BluRay/MKV
          echo "$(date "+%d.%m.%Y %T") : BluRay detected: Saving MKV"
-         makemkvcon --profile=/config/flac.mmcp.xml -r --decrypt --minlength=15 mkv disc:"$BLURAYNUM" all "$BDPATH" >>$LOGFILE 2>&1
+         makemkvcon --profile=/config/profile.mmcp.xml -r --decrypt --minlength=15 mkv disc:"$BLURAYNUM" all "$BDPATH" >>$LOGFILE 2>&1
       fi
       # Move ripped movie
       mv -v "$BDPATH" "$STORAGE_RIPS"
