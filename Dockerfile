@@ -35,7 +35,6 @@ RUN apt-get update \
   && apt-get -y --allow-unauthenticated install \
   wget \
   eject \
-  lame \
   curl \
   ruby \
   ffmpeg \
