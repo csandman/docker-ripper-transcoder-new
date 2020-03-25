@@ -33,7 +33,6 @@ RUN chmod +x /etc/my_init.d/*.sh
 RUN apt-get update \
   && add-apt-repository -y ppa:stebbins/handbrake-releases \
   && apt-get -y --allow-unauthenticated install \
-  gddrescue \
   wget \
   eject \
   lame \
